@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Ajaama</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <section>
+        <form action="./server.html" method="post">
+            
+           <p>
+             <label for="name1">First name</label>
+            <input required type="text" name="firstname" id="">
+            </p>
+
+            <p>
+                <label for="name2">Last name</label>
+               <input type="text" name="Lastname" id="">
+               </p>
+            
+            <p>
+            <label for="email">email</label>
+            <input type="email" name="email" id="">
+            </p>
+
+            <p>
+            <label for="telephone">Tele</label> 
+            <input type="telephone" name="telephone" id="">
+            </p>
+
+            <fieldset>
+                <legend>Best times to call</legend>
+                <p><label><input type ="radio" name="time1" value="morning" id="morning">Morningg</label>
+                </p>
+    
+                <p><label><input type ="radio" name="time2" value="Afternoon" id="Afternoon">Afternoonn</label>
+                </p>
+    
+                <p><label><input type ="radio" name="time2" value="Evening" id="Evening">Eveningg</label>
+                </p>
+
+             </fieldset>
+
+             <p><label for="I have read all terms">I have read all Terms</label>
+                <input type ="Checkbox" name="I have read all terms" id="I have read all terms">
+            </p>
+
+            <p><label for="Reason">Reason for contacting us</label>
+                <Select name ="Reason" id="Reason">
+                    <option value="car repair">Car Repair</option>
+                    <option value="Eye appointment">Eye appointment</option>
+                    <option value="See my lobeth">See my lobeth</option>
+                </Select>
+            </p>
+
+
+
+            
+            
+            <p>
+                <textarea placeholder="remarks for us" name="comment" cols="20" rows="10">full blast</textarea>
+            </p>
+
+            <input type="submit" value ="send">
+            <button type="submit">Reply</button>
+        </form>
+    </section>
+</body>
+</html>
